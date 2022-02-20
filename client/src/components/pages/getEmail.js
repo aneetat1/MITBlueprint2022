@@ -45,4 +45,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default getEmail;
