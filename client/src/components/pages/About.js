@@ -7,32 +7,28 @@ const about = () => {
   return (
     <body>
       <Link to="/">Back to home/login page</Link>
-        <div class="home-page-content">
-            <div class="landing-page-content">
-                {/* <!-- background image: --> */}
-                <div class="image" id="backgroundImage">
-                    <img src = "https://i.ibb.co/984zbFh/output-onlinepngtools.png" height = "100%" width = "100%"/>
-                </div>
-                
-                {/* <!-- title: --> */}
-                <h1 class="title">campaign.</h1>
-    
-                {/* <!-- subtitle: --> */}
-                <h3 class="subtitle">quickly email your local representatives about current issues.</h3>
+      <h1> <center> about </center></h1>
 
-                {/* <!-- info button, replace with info button: --> */}
-                <button type="button"> <img src="https://bit.ly/3BF9FD7" height ="80" width="100" /></button>
-    
-                {/* <!-- replaced getRandomImage() with something that brings you back to the home page --> */}
-                <div class="button-container">
-                    <button id="random" onClick="getRandomImage()">campaign.org</button>
-                </div>
-    
-            </div>
-            <div class="outreach-content">
+      <p><center>campaign.org works to ensure everyone has political efficacy, to ensure our elected leaders hear our voices by seeing our wants and needs across the board.
+        <br><br>
+          reach out to your senators now and tell them what changes you need to see being made. we won’t take anymore political standstill.
+        </br> </br>
+      </center></p>
 
-            </div>
-        </div>
+      <button>
+        <br></br>
+        <h2>
+          instructions
+        </h2>
+
+        <p>
+          1. choose an issue or add your own issue <br></br>
+          2. sign a pre-written email template or write your own template for anyone to use <br></br>
+          3. personalize your email! add your name and find your senators <br></br>
+          4. choose which senator you want to send your email to <br></br>
+          5. and you’re done! we’ll redirect you to your senator’s email form
+        </p>
+      </button>
         
     </body>
   );
