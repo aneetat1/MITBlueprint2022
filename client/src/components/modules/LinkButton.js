@@ -5,7 +5,7 @@ import { Router, Link } from "@reach/router";
 const LinkButton = (props) => {
   return (
     <div>
-        <Link to="{props.link}">{props.text}</Link>
+        <Link to="emailtemplates">{props.text}</Link>
     </div>
   );
 };
