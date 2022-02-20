@@ -4,7 +4,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const NotFound = () => {
+const chooseAnIssue = () => {
   return (
     <div>
         <h1>
