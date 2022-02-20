@@ -3,7 +3,7 @@ import GoogleLogin, { GoogleLogout } from "react-google-login";
 import { Router, Link } from "@reach/router";
 
 import "../../utilities.css";
-import "./Skeleton.css";
+import "./style.css";
 
 //TODO: REPLACE WITH YOUR OWN CLIENT_ID
 const GOOGLE_CLIENT_ID = "965618352125-pjlbq5vgi8j0s46dj5odgt4rbao4s0v4.apps.googleusercontent.com";
@@ -26,9 +26,37 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
           onFailure={(err) => console.log(err)}
         />
       )}
-      <h1>Home Page</h1>
-      <a href="http://weblab.to/get-started">example link (get started guide)</a>
+      
+      <body>
       <Link to="about">About</Link>
+        <div class="home-page-content">
+            <div class="landing-page-content">
+                {/* <!-- background image: --> */}
+                <div class="image" id="backgroundImage">
+                    <img src = "https://i.ibb.co/984zbFh/output-onlinepngtools.png" height = "100%" width = "100%"/>
+                </div>
+                
+                {/* <!-- title: --> */}
+                <h1 class="title">campaign.</h1>
+    
+                {/* <!-- subtitle: --> */}
+                <h3 class="subtitle">quickly email your local representatives about current issues.</h3>
+
+                {/* <!-- info button, replace with info button: --> */}
+                <button type="button"> <img src="https://bit.ly/3BF9FD7" height ="80" width="100" /></button>
+    
+                {/* <!-- replaced getRandomImage() with something that brings you back to the home page --> */}
+                <div class="button-container">
+                    <button id="random" onClick="getRandomImage()">campaign.org</button>
+                </div>
+    
+            </div>
+            <div class="outreach-content">
+
+            </div>
+        </div>
+        
+    </body>
     </>
   );
 };
