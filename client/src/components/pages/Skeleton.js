@@ -11,47 +11,72 @@ const GOOGLE_CLIENT_ID = "965618352125-pjlbq5vgi8j0s46dj5odgt4rbao4s0v4.apps.goo
 const Skeleton = ({ userId, handleLogin, handleLogout }) => {
   return (
     <>
+    <div class="google">
       {userId ? (
         <GoogleLogout
           clientId={GOOGLE_CLIENT_ID}
-          buttonText="Logout"
+          buttonText="logout"
           onLogoutSuccess={handleLogout}
           onFailure={(err) => console.log(err)}
         />
       ) : (
         <GoogleLogin
           clientId={GOOGLE_CLIENT_ID}
-          buttonText="Login"
+          buttonText="login with google"
           onSuccess={handleLogin}
           onFailure={(err) => console.log(err)}
         />
       )}
-      
+    </div>
+
       <body>
-      <Link to="about">About</Link>
+
+      <div>
+        
+      </div>
+      {/* <!-- <Link to="about">About</Link> --> */} 
         <div class="home-page-content">
             <div class="landing-page-content">
+            
+            <div class="headl">
+            {/* <!-- info button, replace with info button: --> */}
+            <h1 class ="head">campaign.org</h1>
+            <button type="button"> <Link to="about"> <img src="https://raw.githubusercontent.com/aneetat1/MITBlueprint2022/main/image.png" height ="30" width="30" />  </Link> </button>
+            </div>
+
+            {/* <!-- replaced getRandomImage() with something that brings you back to the home page --> */}
+            <div class="button-container">
+            </div>
+
+              <div class="bckgrnd">
+
                 {/* <!-- background image: --> */}
                 <div class="image" id="backgroundImage">
                     <img src = "https://i.ibb.co/984zbFh/output-onlinepngtools.png" height = "100%" width = "100%"/>
+                    
                 </div>
                 
-                {/* <!-- title: --> */}
-                <h1 class="title">campaign.</h1>
-    
-                {/* <!-- subtitle: --> */}
-                <h3 class="subtitle">quickly email your local representatives about current issues.</h3>
+                <h1 class="text">
+                    {/* <!-- title: --> */}
+                    <h1 class="title">campaign.</h1>
 
-                {/* <!-- info button, replace with info button: --> */}
-                <button type="button"> <img src="https://bit.ly/3BF9FD7" height ="80" width="100" /></button>
-    
-                {/* <!-- replaced getRandomImage() with something that brings you back to the home page --> */}
-                <div class="button-container">
-                    <button id="random" onClick="getRandomImage()">campaign.org</button>
+                    {/* <!-- subtitle: --> */}
+                     <h3 class="subtitle">quickly email your local representatives about current issues.</h3>
+                </h1>
+                
                 </div>
     
             </div>
             <div class="outreach-content">
+
+                <h1 class="title">outreach</h1>
+ 
+                <h3 class="subtitle-1"> email your local representatives an issue.</h3>
+               
+                chooseAnIssue.js<button type="button">see the list of issues</button>
+
+
+
 
             </div>
         </div>
