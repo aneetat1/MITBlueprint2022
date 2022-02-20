@@ -8,7 +8,7 @@ const writeOrSign = () => {
   return (
     <div>
         <center><button><a href="write.js"/>write</button>
-        <button><a href="sign.js"/>sign</button>
+        <button><a href="emailTemplates.js"/>sign</button>
         </center>
     </div>
   );
