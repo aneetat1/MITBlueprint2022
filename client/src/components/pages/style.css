@@ -64,7 +64,6 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
-  /* dark mode: */
   opacity: 1;
   padding-top: 250px;
   color: rgb(0, 0, 0);
@@ -81,7 +80,7 @@
   letter-spacing: 2px;
   /* dark mode: */
   color: black;
-  opacity: 1.0;
+  opacity: 100%;
 }
 
 .subtitle2 {
@@ -89,7 +88,7 @@
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
-  font-family: "futura-light", sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
@@ -107,38 +106,21 @@
   color: rgb(0, 0, 0);
 }
 
-button {
+.button-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-left: 10px;
+}
+
+.button {
   background: transparent;
   border: none !important;
   align-content: center;
 }
-​
 
- /*.image{
-    background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
-    background-repeat: no-repeat;
-    justify-content: center;
-    /* border-radius: 200px;
-    margin-top: 20px;
-    margin-bottom: 45px;
- */
-/* .image{
-  background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
-  background-repeat: no-repeat;
-  justify-content: center;
-  /* border-radius: 200px;
-  margin-top: 20px;
-  margin-bottom: 45px;
-} */
-
-.button-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  padding-top: 15px;
-  height: 50px;
-  /* dark mode: */
-  padding-bottom: 50%;
+.outreach-content{
+  padding-top: 50%;
 }
 
 .footer {
