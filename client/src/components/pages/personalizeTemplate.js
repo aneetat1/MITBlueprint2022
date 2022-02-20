@@ -14,12 +14,8 @@ const NotFound = () => {
         </h1>
 
         <form>
-<<<<<<< HEAD
-            <label><b>Your name: </b></label> <br/>
-=======
-            <label><b>Your name: </b></label>
->>>>>>> a8eeaeabe31eb2c107342b78d4f5ea29064b712f
-            <input type = "text"/>
+        <label><b>Your name: </b></label><br/>
+        <input type = "text"/>
         </form>
 
         <b>
@@ -78,13 +74,18 @@ const NotFound = () => {
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
         </select>
+    
+        <br/><br/>
+        <b>choose one senator</b>
+        <select>
+            <option value = "null"> (select one)</option>
+            <option value = "s1">Kirsten Gillibrand</option>
+            <option value = "s2"> Chuck Schumer</option>
+        </select>
+        <br/><br/>
 
-<<<<<<< HEAD
-        <br/> <br/>
-=======
-        <br> </br>
->>>>>>> a8eeaeabe31eb2c107342b78d4f5ea29064b712f
         <button>
+            <a href = "getEmail.html"/>
             send your email!
         </button>
     </div>
