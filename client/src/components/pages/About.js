@@ -10,13 +10,13 @@ const about = () => {
       <h1> <center> about </center></h1>
 
       <p><center>campaign.org works to ensure everyone has political efficacy, to ensure our elected leaders hear our voices by seeing our wants and needs across the board.
-        <br><br>
+        <p></p>
           reach out to your senators now and tell them what changes you need to see being made. we won’t take anymore political standstill.
-        </br> </br>
+        <p> </p>
       </center></p>
 
-      <button>
-        <br></br>
+      <button class="instructions">
+        <p></p>
         <h2>
           instructions
         </h2>

@@ -94,6 +94,7 @@
   /* dark mode: */
   color: rgb(0, 0, 0);
 }
+
 .subtitle {
   padding-top: -300px;
   text-align: center;
@@ -120,7 +121,12 @@
 }
 
 .outreach-content{
-  padding-top: 50%;
+  padding-top: 20%;
+  justify-content: center;
+}
+
+.instructions{
+  justify-content: center;
 }
 
 .footer {
