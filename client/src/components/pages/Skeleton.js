@@ -31,6 +31,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
       <Link to="about">About</Link>
       <Link to="write">Write</Link>
       <Link to="choose">Choose</Link>
+      <Link to="emailTemplate">Email Template</Link>
         <div class="home-page-content">
             <div class="landing-page-content">
                 {/* <!-- background image: --> */}
