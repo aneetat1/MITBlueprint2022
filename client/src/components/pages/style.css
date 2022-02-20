@@ -1,10 +1,10 @@
 /* @font-face {
-  font-family: "futura-light";
-  src: url("/futura\ light\ bt.ttf");
+  font-family: 'futura-light';
+  src: url('futura light bt.ttf');
 }
 @font-face {
-  font-family: "futura-mid";
-  src: url("/futura\ medium\ bt.ttf");
+  font-family: 'futura-mid';
+  src: url('futura medium bt.ttf');
 } */
 
 .google {
@@ -13,6 +13,7 @@
   align-items: right;
   padding: 20px;
 }
+/* home page stuff */
 .home-page-content {
   /* display: flex; */
   justify-content: center;
@@ -49,6 +50,8 @@
   width: 100%;
   left: 0; 
   right: 0;
+.header {
+  justify-content: center;
 }
 
 .title {
@@ -60,9 +63,9 @@
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
-  color: black;
   opacity: 1.0;
   padding-top: 250px;
+  color: rgb(0, 0, 0);
 }
 
 .title1 {
@@ -95,7 +98,7 @@
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
-  font-family: "futura-light", sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
@@ -116,6 +119,14 @@ button {
     margin-top: 20px;
     margin-bottom: 45px;
  */
+/* .image{
+  background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  /* border-radius: 200px;
+  margin-top: 20px;
+  margin-bottom: 45px;
+} */
 
 .button-container {
   display: flex;
@@ -127,11 +138,11 @@ button {
   padding-bottom: 50%;
 }
 
-/* cooler error message:
-.error-message{
-    padding-top:15px;
-    color: rgb(238, 83, 83);
-} */
+.footer {
+  font-size: 10px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
 
 #random {
   /* background-color: rgb(218, 195, 255); */
