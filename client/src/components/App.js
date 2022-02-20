@@ -5,6 +5,7 @@ import Skeleton from "./pages/Skeleton.js";
 
 import About from "./pages/About.js";
 import Write from "./pages/write.js";
+import chooseAnIssue from "./pages/chooseAnIssue.js";
 
 import "../utilities.css";
 
@@ -48,6 +49,7 @@ const App = () => {
         <NotFound default />
         <About path="about" />
         <write path="write" />
+        <chooseAnIssue path="choose" />
       </Router>
     </>
   );
