@@ -6,7 +6,7 @@ import Skeleton from "./pages/Skeleton.js";
 import About from "./pages/About.js";
 import Write from "./pages/write.js";
 import ChooseAnIssue from "./pages/chooseAnIssue.js";
-import emailTemplates from "./pages/emailTemplates.js";
+import EmailTemplates from "./pages/emailTemplates.js";
 
 import "../utilities.css";
 
@@ -50,8 +50,8 @@ const App = () => {
         <NotFound default />
         <About path="about" />
         <Write path="write" />
-        <ChooseAnIssue path="choose" />
-        <emailTemplates path="emailTemplate" />
+        <ChooseAnIssue path="/choose" />
+        <EmailTemplates path="/emailtemplates" />
       </Router>
     </>
   );

@@ -4,7 +4,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const emailTemplates = () => {
+const EmailTemplates = () => {
   return (
     <div>
         <h1>
@@ -12,16 +12,16 @@ const emailTemplates = () => {
         </h1>
 
         <center>
-            <button>
-                <div style="width:400px;height:500px;border:0px solid #000;">template 1</div>
+            <button>    
+                <div>template 1</div>
             </button>
 
             <button>
-                <div style="width:400px;height:500px;border:0px solid #000;">template 2</div>
+                <div>template 2</div>
             </button>
         </center>
     </div>
   );
 };
 
-export default emailTemplates;
+export default EmailTemplates;
