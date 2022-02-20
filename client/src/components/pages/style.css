@@ -8,7 +8,7 @@
 } */
 
 .google {
-  justify-content: center; 
+  justify-content: center;
   float: right;
   align-items: right;
   padding: 20px;
@@ -48,8 +48,10 @@
 .image {
   position: absolute;
   width: 100%;
-  left: 0; 
+  left: 0;
   right: 0;
+}
+
 .header {
   justify-content: center;
 }
@@ -59,11 +61,11 @@
   font-size: 100px;
   letter-spacing: 7px;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
-  opacity: 1.0;
+  opacity: 1;
   padding-top: 250px;
   color: rgb(0, 0, 0);
 }
@@ -73,7 +75,7 @@
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
@@ -81,10 +83,10 @@
 }
 
 button {
-
   background: transparent;
   border: none !important;
-}​
+}
+​
 
  /*.image{
     background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
