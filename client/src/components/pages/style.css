@@ -1,13 +1,14 @@
-/* @font-face {
-  font-family: "futura-light";
-  src: url("/futura\ light\ bt.ttf");
+@font-face {
+  font-family: 'futura-light';
+  src: url('futura light bt.ttf');
 }
 @font-face {
-  font-family: "futura-mid";
-  src: url("/futura\ medium\ bt.ttf");
-} */
+  font-family: 'futura-mid';
+  src: url('futura medium bt.ttf');
+}
 
-.home-page-content {
+/* home page stuff */
+.home-page-content{
   /* display: flex; */
   justify-content: center;
   /* flex-direction: column; */
@@ -15,27 +16,31 @@
   /* background-color: rgb(32, 32, 32); */
 }
 
-.landing-page-content {
+.landing-page-content{
   justify-content: center;
 }
 
-.title {
+.header{
+  
+}
+
+.title{
   text-align: center;
   font-size: 100px;
   letter-spacing: 7px;
   align-items: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
-  color: rgb(0, 255, 0);
+  color: rgb(0, 0, 0);
 }
 
-.subtitle {
+.subtitle{
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
-  font-family: "futura-light", sans-serif;
+  font-family: 'futura-light', sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
@@ -43,15 +48,15 @@
 }
 
 /* .image{
-    background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
-    background-repeat: no-repeat;
-    justify-content: center;
-    /* border-radius: 200px;
-    margin-top: 20px;
-    margin-bottom: 45px;
+  background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
+  background-repeat: no-repeat;
+  justify-content: center;
+  /* border-radius: 200px;
+  margin-top: 20px;
+  margin-bottom: 45px;
 } */
 
-.button-container {
+.button-container{
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -61,23 +66,23 @@
   padding-bottom: 50%;
 }
 
-/* cooler error message:
-.error-message{
-    padding-top:15px;
-    color: rgb(238, 83, 83);
-} */
+.footer{
+  font-size: 10px;
+  color:rgb(0, 0, 0);
+  text-align: center;
+}
 
-#random {
+#random{
   /* background-color: rgb(218, 195, 255); */
   margin: 7px;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   /* dark mode: */
   color: rgb(0, 0, 0);
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(240, 248, 255, 0);
 }
 
-#random:hover {
+#random:hover{
   cursor: pointer;
   /* background-color: rgb(165, 109, 253); */
   /* dark mode: */
