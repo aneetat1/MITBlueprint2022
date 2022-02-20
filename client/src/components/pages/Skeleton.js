@@ -63,7 +63,10 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
       <div class= "outreach-content">
 
           <h1 class="title1">outreach</h1>
-          <h3 class="subtitle-2"> email your local representatives an issue.</h3>
+
+          <div class="subtitle-2">
+            <h3> email your local representatives an issue.</h3>
+          </div>
           
           <button type="button"><Link to="choose">See List of Issues</Link></button>
         </div>
