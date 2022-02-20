@@ -12,13 +12,13 @@ const NotFound = () => {
         </h1>
 
         <button>
-            <a href="emailTemplates.html">
+            <a href="emailTemplates.html"/>
             climate change
         </button>
 
         <button>
             artificial intelligence ethics
-            <a href="emailTemplates.html">
+            <a href="emailTemplates.html"/>
         </button>
 
         <button>
@@ -28,4 +28,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default chooseAnIssue;

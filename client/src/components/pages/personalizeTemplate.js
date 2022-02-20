@@ -14,8 +14,8 @@ const NotFound = () => {
         </h1>
 
         <form>
-            <label><b>Your name: </b></label> <br>
-            <input type = "text">
+            <label><b>Your name: </b></label> <br/>
+            <input type = "text"/>
         </form>
 
         <b>
@@ -75,7 +75,7 @@ const NotFound = () => {
             <option value="WY">Wyoming</option>
         </select>
 
-        <br> <br>
+        <br/> <br/>
         <button>
             send your email!
         </button>
@@ -83,4 +83,4 @@ const NotFound = () => {
   );
 };
 
-export default NotFound;
+export default personalizeTemplate;
