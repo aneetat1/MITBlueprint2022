@@ -7,6 +7,12 @@
   src: url('futura medium bt.ttf');
 } */
 
+.google {
+  justify-content: center;
+  float: right;
+  align-items: right;
+  padding: 20px;
+}
 /* home page stuff */
 .home-page-content {
   /* display: flex; */
@@ -16,8 +22,34 @@
   /* background-color: rgb(32, 32, 32); */
 }
 
+.head1 {
+  display: inline-block;
+  text-align: center;
+}
+
+.head {
+  padding-left: 15px;
+  padding-top: 15px;
+  font-size: 30px;
+}
 .landing-page-content {
   justify-content: center;
+}
+
+.h1 {
+  line-height: normal;
+  white-space: nowrap;
+  overflow: hidden;
+}
+/* .bckgrnd {
+  position: relative;
+} */
+
+.image {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  right: 0;
 }
 
 .header {
@@ -33,10 +65,27 @@
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
+  opacity: 1;
+  padding-top: 250px;
   color: rgb(0, 0, 0);
 }
 
-.subtitle {
+.title1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 7px;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  /* dark mode: */
+  color: black;
+  opacity: 1.0;
+}
+
+.subtitle2 {
+  padding-top: -300px;
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
@@ -46,7 +95,32 @@
   /* dark mode: */
   color: rgb(0, 0, 0);
 }
+.subtitle {
+  padding-top: -300px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 7px;
+  font-family: "Inter", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  /* dark mode: */
+  color: rgb(0, 0, 0);
+}
 
+button {
+  background: transparent;
+  border: none !important;
+}
+​
+
+ /*.image{
+    background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
+    background-repeat: no-repeat;
+    justify-content: center;
+    /* border-radius: 200px;
+    margin-top: 20px;
+    margin-bottom: 45px;
+ */
 /* .image{
   background-image: url("https://i.ibb.co/984zbFh/output-onlinepngtools.png");
   background-repeat: no-repeat;
