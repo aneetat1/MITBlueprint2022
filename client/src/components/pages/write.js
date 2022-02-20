@@ -3,7 +3,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const write = () => {
+const Write = () => {
   return (
     <div>
       <Link to="/">Back to home/login page</Link>
@@ -19,4 +19,4 @@ const write = () => {
   );
 }
 
-export default write;
+export default Write;

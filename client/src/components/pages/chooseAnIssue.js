@@ -4,7 +4,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const chooseAnIssue = () => {
+const ChooseAnIssue = () => {
   return (
     <div>
         <h1>
@@ -28,4 +28,4 @@ const chooseAnIssue = () => {
   );
 };
 
-export default chooseAnIssue;
+export default ChooseAnIssue;
