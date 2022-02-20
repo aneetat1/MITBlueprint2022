@@ -34,7 +34,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
       <body>
       <Link to="about">About</Link>
       <Link to="write">Write</Link>
-      <Link to="choose">Choose</Link>
+      
       <Link to="emailTemplate">Email Template</Link>
         <div class="home-page-content">
             <div class="landing-page-content">
@@ -73,7 +73,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
                 <h1 class="title1">outreach</h1>
                 <h3 class="subtitle-2"> email your local representatives an issue.</h3>
                
-                chooseAnIssue.js<button type="button">see the list of issues</button>
+                <button type="button"><Link to="choose">See List of Issues</Link></button>
 
 
 

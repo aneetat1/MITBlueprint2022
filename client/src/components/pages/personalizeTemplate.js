@@ -74,7 +74,7 @@ const NotFound = () => {
             <option value="WI">Wisconsin</option>
             <option value="WY">Wyoming</option>
         </select>
-
+    
         <br/><br/>
         <b>choose one senator</b>
         <select>
@@ -83,6 +83,7 @@ const NotFound = () => {
             <option value = "s2"> Chuck Schumer</option>
         </select>
         <br/><br/>
+
         <button>
             <a href = "getEmail.html"/>
             send your email!
