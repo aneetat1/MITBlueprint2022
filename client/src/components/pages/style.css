@@ -8,7 +8,7 @@
 } */
 
 /* home page stuff */
-.home-page-content{
+.home-page-content {
   /* display: flex; */
   justify-content: center;
   /* flex-direction: column; */
@@ -16,27 +16,27 @@
   /* background-color: rgb(32, 32, 32); */
 }
 
-.landing-page-content{
+.landing-page-content {
   justify-content: center;
 }
 
-.header{
+.header {
   justify-content: center;
 }
 
-.title{
+.title {
   text-align: center;
   font-size: 100px;
   letter-spacing: 7px;
   align-items: center;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 100;
   letter-spacing: 2px;
   /* dark mode: */
   color: rgb(0, 0, 0);
 }
 
-.subtitle{
+.subtitle {
   text-align: center;
   font-size: 40px;
   letter-spacing: 7px;
@@ -56,7 +56,7 @@
   margin-bottom: 45px;
 } */
 
-.button-container{
+.button-container {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -66,23 +66,23 @@
   padding-bottom: 50%;
 }
 
-.footer{
+.footer {
   font-size: 10px;
-  color:rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
   text-align: center;
 }
 
-#random{
+#random {
   /* background-color: rgb(218, 195, 255); */
   margin: 7px;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   /* dark mode: */
   color: rgb(0, 0, 0);
   background-color: rgba(255, 255, 255, 0);
   border-color: rgba(240, 248, 255, 0);
 }
 
-#random:hover{
+#random:hover {
   cursor: pointer;
   /* background-color: rgb(165, 109, 253); */
   /* dark mode: */
