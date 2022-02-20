@@ -27,6 +27,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
           onFailure={(err) => console.log(err)}
         />
       )}
+
     </div>
 
       <body>
@@ -35,6 +36,11 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
         
       </div>
       {/* <!-- <Link to="about">About</Link> --> */} 
+      <body>
+      <Link to="about">About</Link>
+      <Link to="write">Write</Link>
+      <Link to="choose">Choose</Link>
+      <Link to="emailTemplate">Email Template</Link>
         <div class="home-page-content">
             <div class="landing-page-content">
             

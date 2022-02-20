@@ -3,7 +3,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const About = () => {
+const about = () => {
   return (
     <body>
       <Link to="/">Back to home/login page</Link>
@@ -38,4 +38,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default about;
