@@ -30,12 +30,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
 
     </div>
 
-      {/* <!-- <Link to="about">About</Link> --> */} 
     <body>
-      {/* <Link to="about">About</Link>
-      <Link to="write">Write</Link>
-      
-      <Link to="emailTemplate">Email Template</Link> */}
       <div class="home-page-content">
         <div class="landing-page-content">
         
@@ -72,8 +67,8 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
           
           <button type="button"><Link to="choose">See List of Issues</Link></button>
         </div>
-      </div>  
     </body>
+    </>
   );
 };
 
