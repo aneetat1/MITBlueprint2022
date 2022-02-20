@@ -30,11 +30,6 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
 
     </div>
 
-      <body>
-
-      <div>
-        
-      </div>
       {/* <!-- <Link to="about">About</Link> --> */} 
       <body>
       <Link to="about">About</Link>
