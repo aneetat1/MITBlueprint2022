@@ -70,6 +70,31 @@
   color: rgb(0, 0, 0);
 }
 
+.title1 {
+  padding-top: 100px;
+  text-align: center;
+  font-size: 100px;
+  letter-spacing: 7px;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  /* dark mode: */
+  color: black;
+  opacity: 1.0;
+}
+
+.subtitle2 {
+  padding-top: -300px;
+  text-align: center;
+  font-size: 40px;
+  letter-spacing: 7px;
+  font-family: "futura-light", sans-serif;
+  font-weight: 100;
+  letter-spacing: 2px;
+  /* dark mode: */
+  color: rgb(0, 0, 0);
+}
 .subtitle {
   padding-top: -300px;
   text-align: center;
