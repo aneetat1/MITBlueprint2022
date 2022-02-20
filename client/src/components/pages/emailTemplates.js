@@ -13,7 +13,11 @@ const EmailTemplates = () => {
 
         <center>
             <button>    
-                <div>template 1</div>
+                <div>
+                <button>
+                    <a href="http://localhost:5000/personalizetemplate">Template 1: prefilled</a>
+                </button>
+                </div>
             </button>
 
             <button>
