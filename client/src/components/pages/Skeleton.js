@@ -26,7 +26,6 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
           onFailure={(err) => console.log(err)}
         />
       )}
-      
       <body>
       <Link to="about">About</Link>
         <div class="home-page-content">
