@@ -7,6 +7,7 @@
     src: url('futura medium bt.ttf');
 }
 
+/* home page stuff */
 .home-page-content{
     /* display: flex; */
     justify-content: center;
@@ -17,6 +18,10 @@
 
 .landing-page-content{
     justify-content: center;
+}
+
+.header{
+    
 }
 
 .title{
@@ -61,11 +66,11 @@
     padding-bottom: 50%;
 }
 
-/* cooler error message:
-.error-message{
-    padding-top:15px;
-    color: rgb(238, 83, 83);
-} */
+.footer{
+    font-size: 10px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
 
 #random{
     /* background-color: rgb(218, 195, 255); */
