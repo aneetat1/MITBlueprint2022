@@ -1,34 +1,12 @@
-import React, { Component } from "react";
-import GoogleLogin, { GoogleLogout } from "react-google-login";
+import React from "react";
 import { Router, Link } from "@reach/router";
 
-import "../../utilities.css";
 import "./style.css";
 
-//TODO: REPLACE WITH YOUR OWN CLIENT_ID
-const GOOGLE_CLIENT_ID = "965618352125-pjlbq5vgi8j0s46dj5odgt4rbao4s0v4.apps.googleusercontent.com";
-
-const Skeleton = ({ userId, handleLogin, handleLogout }) => {
+const About = () => {
   return (
-    <>
-      {userId ? (
-        <GoogleLogout
-          clientId={GOOGLE_CLIENT_ID}
-          buttonText="Logout"
-          onLogoutSuccess={handleLogout}
-          onFailure={(err) => console.log(err)}
-        />
-      ) : (
-        <GoogleLogin
-          clientId={GOOGLE_CLIENT_ID}
-          buttonText="Login"
-          onSuccess={handleLogin}
-          onFailure={(err) => console.log(err)}
-        />
-      )}
-      
-      <body>
-      <Link to="about">About</Link>
+    <body>
+      <Link to="/">Back to home/login page</Link>
         <div class="home-page-content">
             <div class="landing-page-content">
                 {/* <!-- background image: --> */}
@@ -57,8 +35,7 @@ const Skeleton = ({ userId, handleLogin, handleLogout }) => {
         </div>
         
     </body>
-    </>
   );
 };
 
-export default Skeleton;
+export default About;

@@ -1,5 +1,9 @@
 import React from "react";
 
+import { Router, Link } from "@reach/router";
+
+import "./style.css";
+
 const NotFound = () => {
   return (
     <div>
