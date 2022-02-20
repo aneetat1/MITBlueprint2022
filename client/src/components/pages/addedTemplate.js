@@ -16,7 +16,7 @@ const addedTemplate = () => {
             </h1>
 
             <button>
-                <a href="emailTemplates.html">
+                <a href="emailTemplates.html"/>
                 view templates
             </button>
         </center>
@@ -24,4 +24,4 @@ const addedTemplate = () => {
   );
 };
 
-export default NotFound;
+export default addedTemplate;
