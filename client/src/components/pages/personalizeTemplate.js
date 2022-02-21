@@ -4,7 +4,7 @@ import { Router, Link } from "@reach/router";
 
 import "./style.css";
 
-const NotFound = () => {
+const PersonalizeTemplate = () => {
   return (
     <div>
         <h1>
@@ -85,11 +85,12 @@ const NotFound = () => {
         <br/><br/>
 
         <button>
-            <a href = "getEmail.html"/>
-            send your email!
+            <a href = "http://localhost:5000/getemail">
+                send your email!
+            </a>
         </button>
     </div>
   );
 };
 
-export default personalizeTemplate;
+export default PersonalizeTemplate;

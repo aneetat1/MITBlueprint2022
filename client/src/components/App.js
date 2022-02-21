@@ -7,6 +7,8 @@ import About from "./pages/About.js";
 import Write from "./pages/write.js";
 import ChooseAnIssue from "./pages/chooseAnIssue.js";
 import EmailTemplates from "./pages/emailTemplates.js";
+import PersonalizeTemplate from "./pages/personalizeTemplate.js";
+import GetEmail from "./pages/getEmail.js";
 
 import "../utilities.css";
 
@@ -50,8 +52,10 @@ const App = () => {
         <NotFound default />
         <About path="about" />
         <Write path="write" />
-        <ChooseAnIssue path="/choose" />
-        <EmailTemplates path="/emailtemplates" />
+        <ChooseAnIssue path="choose" />
+        <EmailTemplates path="emailtemplates" />
+        <PersonalizeTemplate path="personalizetemplate" />
+        <GetEmail path="getemail" />
       </Router>
     </>
   );
